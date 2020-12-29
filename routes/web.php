@@ -65,6 +65,3 @@ Route::prefix('admin')->group(function(){
 Route::get('/login',[
 		BackEndController::class,'GetLogin'
 	]);
-	Route::get('/testingkhicogit',[
-		BackEndController::class,'GetLogin'
-	]);
